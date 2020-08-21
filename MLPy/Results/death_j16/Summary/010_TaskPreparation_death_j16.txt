@@ -1,0 +1,23 @@
+Analyse datetime: 2020-03-09 15:55:48.139548
+This files contain informations about your data
+
+You provided me a file with 576 column(s) and 140 row(s).
+You choose "death_j16" as your target feature and its type is int64:
+==> then your question is a Regression problem.
+
+You choose to keep 0% of your data set as external validation set.
+
+Before removing columns with only NA you have 576 samples
+After removing columns with only NA you have 576 samples
+
+Before removing rows with at least 1 NA you have 140 samples
+After removing rows with at least 1 NA you have 140 samples
+
+Before removing column with only 0 value you have 575 columns
+After removing column with only 0 value you have 575 columns
+
+Your target will not be scale or dummysied
+
+Before dummies transformation you have 574 features
+After dummies transformation you have 574 features
+

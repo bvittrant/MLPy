@@ -1,0 +1,18 @@
+sys;no attribute version
+functools;No attribute version
+os;No attribute version
+multiprocessing;No attribute version
+shutil;No attribute version
+pathlib;No attribute version
+argparse;1.1
+pandas;1.0.1
+sklearn;0.22.1
+matplotlib;3.1.3
+seaborn;0.10.0
+numpy;1.18.1
+math;no attribute version
+statistics;no attribute version
+tqdm;no attribute version
+time;no attribute version
+datetime;no attribute version
+python;3.8.1 (tags/v3.8.1:1b293b6, Dec 18 2019, 23:11:46) [MSC v.1916 64 bit (AMD64)]

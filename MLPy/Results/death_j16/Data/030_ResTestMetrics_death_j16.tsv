@@ -1,0 +1,781 @@
+Model	NbOfFeatures	Sampling	MAE	MedAE	MSE
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	1	1	0.07930434782608696	0.0010000000000000009	0.01966765217391304
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	1	1	0.03130434782608695	0.0	0.01076695652173913
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=1500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	1	1	0.078231884057971	0.001333333333333353	0.019453159420289856
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=1500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	1	1	0.03084057971014493	0.0	0.01038991304347826
+"DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=None, splitter='best')"	1	1	0.043478260869565216	0.0	0.043478260869565216
+"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)"	1	1	0.04456521739130435	0.0	0.0435054347826087
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+                    weights='uniform')"	1	1	0.12608695652173912	0.0	0.06695652173913046
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)	1	1	0.21534036932474038	0.15184656431491717	0.08516389136836607
+"Perceptron(alpha=0.0001, class_weight=None, early_stopping=False, eta0=1.0,
+           fit_intercept=True, max_iter=1000, n_iter_no_change=5, n_jobs=None,
+           penalty=None, random_state=0, shuffle=True, tol=0.001,
+           validation_fraction=0.1, verbose=0, warm_start=False)"	1	1	0.13043478260869565	0.0	0.13043478260869565
+"LinearSVR(C=1, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	1	1	0.15217391304386121	4.54948497702096e-13	0.15217391304353312
+"LinearSVR(C=0.5, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	1	1	0.15217391304385888	5.259178991885177e-13	0.15217391304341069
+"QuadraticDiscriminantAnalysis(priors=None, reg_param=2.220446049250313e-16,
+                              store_covariance=False, tol=0.0001)"	1	1	0.13043478260869565	0.0	0.13043478260869565
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	1	2	0.10304347826086957	0.0	0.07142173913043479
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	1	2	0.08269565217391305	0.0	0.06979356521739132
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=1500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	1	2	0.10233333333333335	0.0	0.07119589371980677
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=1500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	1	2	0.08182608695652174	0.0	0.06876415458937199
+"DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=None, splitter='best')"	1	2	0.08695652173913043	0.0	0.08695652173913043
+"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)"	1	2	0.08695652173913043	0.0	0.08695652173913043
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+                    weights='uniform')"	1	2	0.12608695652173912	0.0	0.09304347826086957
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)	1	2	0.21858928252136636	0.14829359347562354	0.08512759959839211
+"Perceptron(alpha=0.0001, class_weight=None, early_stopping=False, eta0=1.0,
+           fit_intercept=True, max_iter=1000, n_iter_no_change=5, n_jobs=None,
+           penalty=None, random_state=0, shuffle=True, tol=0.001,
+           validation_fraction=0.1, verbose=0, warm_start=False)"	1	2	0.08695652173913043	0.0	0.08695652173913043
+"LinearSVR(C=1, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	1	2	0.15217391304505393	1.4825786901470272e-12	0.1521739130442352
+"LinearSVR(C=0.5, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	1	2	0.15217391304436353	1.1227470166544742e-12	0.15217391304371378
+"QuadraticDiscriminantAnalysis(priors=None, reg_param=2.220446049250313e-16,
+                              store_covariance=False, tol=0.0001)"	1	2	0.08695652173913043	0.0	0.08695652173913043
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	1	3	0.09521739130434782	0.0	0.0885688695652174
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	1	3	0.06973913043478261	0.0	0.0592351304347826
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=1500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	1	3	0.09491304347826086	0.0	0.08856151690821257
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=1500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	1	3	0.07127536231884059	0.0	0.06117590338164251
+"DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=None, splitter='best')"	1	3	0.08695652173913043	0.0	0.08695652173913043
+"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)"	1	3	0.08695652173913043	0.0	0.08695652173913043
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+                    weights='uniform')"	1	3	0.12608695652173915	0.0	0.07913043478260871
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)	1	3	0.20674635872963093	0.15114681984435557	0.08181758648880964
+"Perceptron(alpha=0.0001, class_weight=None, early_stopping=False, eta0=1.0,
+           fit_intercept=True, max_iter=1000, n_iter_no_change=5, n_jobs=None,
+           penalty=None, random_state=0, shuffle=True, tol=0.001,
+           validation_fraction=0.1, verbose=0, warm_start=False)"	1	3	0.10869565217391304	0.0	0.10869565217391304
+"LinearSVR(C=1, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	1	3	0.152173913043967	9.12269214040643e-13	0.1521739130429911
+"LinearSVR(C=0.5, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	1	3	0.15217391304379205	5.075270549266973e-13	0.1521739130432814
+"QuadraticDiscriminantAnalysis(priors=None, reg_param=2.220446049250313e-16,
+                              store_covariance=False, tol=0.0001)"	1	3	0.08695652173913043	0.0	0.08695652173913043
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	1	4	0.10208695652173914	0.0	0.05765634782608695
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	1	4	0.09104347826086956	0.0	0.056797739130434774
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=1500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	1	4	0.0992463768115942	0.0	0.05631737198067633
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=1500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	1	4	0.08866666666666667	0.0	0.055335091787439616
+"DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=None, splitter='best')"	1	4	0.043478260869565216	0.0	0.043478260869565216
+"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)"	1	4	0.13043478260869565	0.0	0.13043478260869565
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+                    weights='uniform')"	1	4	0.19130434782608696	0.0	0.1182608695652174
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)	1	4	0.2507739946062722	0.20892392475361385	0.10234315213194697
+"Perceptron(alpha=0.0001, class_weight=None, early_stopping=False, eta0=1.0,
+           fit_intercept=True, max_iter=1000, n_iter_no_change=5, n_jobs=None,
+           penalty=None, random_state=0, shuffle=True, tol=0.001,
+           validation_fraction=0.1, verbose=0, warm_start=False)"	1	4	0.2391304347826087	0.0	0.2391304347826087
+"LinearSVR(C=1, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	1	4	0.15217391304433087	8.850127370063976e-13	0.15217391304373704
+"LinearSVR(C=0.5, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	1	4	0.15217391304406372	1.0890916954442421e-12	0.15217391304289554
+"QuadraticDiscriminantAnalysis(priors=None, reg_param=2.220446049250313e-16,
+                              store_covariance=False, tol=0.0001)"	1	4	0.17391304347826086	0.0	0.17391304347826086
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	1	5	0.08034782608695654	0.0	0.05675895652173913
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	1	5	0.05078260869565217	0.0	0.04115060869565217
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=1500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	1	5	0.07946376811594202	0.0	0.056247584541062795
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=1500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	1	5	0.05046376811594202	0.0	0.03955031884057971
+"DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=None, splitter='best')"	1	5	0.08695652173913043	0.0	0.08695652173913043
+"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)"	1	5	0.043478260869565216	0.0	0.043478260869565216
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+                    weights='uniform')"	1	5	0.09565217391304347	0.0	0.06260869565217392
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)	1	5	0.19193961798655462	0.13579288348348695	0.07205333306068676
+"Perceptron(alpha=0.0001, class_weight=None, early_stopping=False, eta0=1.0,
+           fit_intercept=True, max_iter=1000, n_iter_no_change=5, n_jobs=None,
+           penalty=None, random_state=0, shuffle=True, tol=0.001,
+           validation_fraction=0.1, verbose=0, warm_start=False)"	1	5	0.10869565217391304	0.0	0.10869565217391304
+"LinearSVR(C=1, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	1	5	0.15217391304458247	1.2150092921516517e-12	0.152173913043981
+"LinearSVR(C=0.5, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	1	5	0.15217391304394143	6.319658963184908e-13	0.15217391304350822
+"QuadraticDiscriminantAnalysis(priors=None, reg_param=2.220446049250313e-16,
+                              store_covariance=False, tol=0.0001)"	1	5	0.08695652173913043	0.0	0.08695652173913043
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	2	1	0.044869565217391306	0.0	0.011606608695652176
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	2	1	0.03347826086956522	0.0	0.01237721739130435
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=1500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	2	1	0.04523188405797102	0.0	0.01222623188405797
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=1500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	2	1	0.03043478260869565	0.0	0.01003551690821256
+"DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=None, splitter='best')"	2	1	0.0	0.0	0.0
+"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)"	2	1	0.007962408607434931	0.0	0.0006814259323685462
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+                    weights='uniform')"	2	1	0.12608695652173915	0.0	0.07043478260869566
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)	2	1	0.2048351552984208	0.17668394815521127	0.07708042683659902
+"Perceptron(alpha=0.0001, class_weight=None, early_stopping=False, eta0=1.0,
+           fit_intercept=True, max_iter=1000, n_iter_no_change=5, n_jobs=None,
+           penalty=None, random_state=0, shuffle=True, tol=0.001,
+           validation_fraction=0.1, verbose=0, warm_start=False)"	2	1	0.08695652173913043	0.0	0.08695652173913043
+"LinearSVR(C=1, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	2	1	0.15217391334607405	4.324934868349377e-10	0.15217391288354165
+"LinearSVR(C=0.5, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	2	1	0.15217391304426514	8.192608989005538e-13	0.15217391304351977
+"QuadraticDiscriminantAnalysis(priors=None, reg_param=2.220446049250313e-16,
+                              store_covariance=False, tol=0.0001)"	2	1	0.13043478260869565	0.0	0.13043478260869565
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	2	2	0.06630434782608696	0.0	0.0322475652173913
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	2	2	0.02582608695652174	0.0	0.015340695652173912
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=1500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	2	2	0.06653623188405797	0.0	0.03135685990338164
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=1500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	2	2	0.02791304347826087	0.0	0.01792017391304348
+"DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=None, splitter='best')"	2	2	0.043478260869565216	0.0	0.043478260869565216
+"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)"	2	2	0.03985507246376811	0.0	0.03653381642512077
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+                    weights='uniform')"	2	2	0.12173913043478261	0.0	0.08000000000000002
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)	2	2	0.1858522921505463	0.12982860835402274	0.07337045805376156
+"Perceptron(alpha=0.0001, class_weight=None, early_stopping=False, eta0=1.0,
+           fit_intercept=True, max_iter=1000, n_iter_no_change=5, n_jobs=None,
+           penalty=None, random_state=0, shuffle=True, tol=0.001,
+           validation_fraction=0.1, verbose=0, warm_start=False)"	2	2	0.13043478260869565	0.0	0.13043478260869565
+"LinearSVR(C=1, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	2	2	0.15217391304367306	3.0266290291450374e-13	0.1521739130433561
+"LinearSVR(C=0.5, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	2	2	0.15217391304389946	5.634193673578802e-13	0.15217391304352182
+"QuadraticDiscriminantAnalysis(priors=None, reg_param=2.220446049250313e-16,
+                              store_covariance=False, tol=0.0001)"	2	2	0.08695652173913043	0.0	0.08695652173913043
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	2	3	0.06960869565217391	0.0	0.024944434782608695
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	2	3	0.042434782608695654	0.0	0.020901565217391303
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=1500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	2	3	0.07118840579710145	0.0	0.02661955555555556
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=1500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	2	3	0.042231884057971014	0.0	0.019872521739130435
+"DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=None, splitter='best')"	2	3	0.043478260869565216	0.0	0.043478260869565216
+"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)"	2	3	0.04071773636991028	0.0	0.024329860768784163
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+                    weights='uniform')"	2	3	0.14782608695652177	0.0	0.08347826086956524
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)	2	3	0.21914355328839982	0.12348473528427283	0.09624021415211544
+"Perceptron(alpha=0.0001, class_weight=None, early_stopping=False, eta0=1.0,
+           fit_intercept=True, max_iter=1000, n_iter_no_change=5, n_jobs=None,
+           penalty=None, random_state=0, shuffle=True, tol=0.001,
+           validation_fraction=0.1, verbose=0, warm_start=False)"	2	3	0.17391304347826086	0.0	0.17391304347826086
+"LinearSVR(C=1, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	2	3	0.15217391304636785	3.2287780069158353e-12	0.15217391304400368
+"LinearSVR(C=0.5, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	2	3	0.15217391304593217	4.113945807457071e-12	0.1521739130423638
+"QuadraticDiscriminantAnalysis(priors=None, reg_param=2.220446049250313e-16,
+                              store_covariance=False, tol=0.0001)"	2	3	0.17391304347826086	0.0	0.17391304347826086
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	2	4	0.11491304347826085	0.0040000000000000036	0.05828217391304349
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	2	4	0.06234782608695653	0.0	0.026686434782608695
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=1500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	2	4	0.11368115942028982	0.008666666666666666	0.057124212560386474
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=1500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	2	4	0.06214492753623189	0.0	0.027408772946859897
+"DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=None, splitter='best')"	2	4	0.043478260869565216	0.0	0.043478260869565216
+"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)"	2	4	0.07383927336437825	0.0	0.05571458759509184
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+                    weights='uniform')"	2	4	0.15217391304347827	0.0	0.06869565217391305
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)	2	4	0.2341758401525114	0.18246522212378313	0.0834686700824044
+"Perceptron(alpha=0.0001, class_weight=None, early_stopping=False, eta0=1.0,
+           fit_intercept=True, max_iter=1000, n_iter_no_change=5, n_jobs=None,
+           penalty=None, random_state=0, shuffle=True, tol=0.001,
+           validation_fraction=0.1, verbose=0, warm_start=False)"	2	4	0.1956521739130435	0.0	0.1956521739130435
+"LinearSVR(C=1, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	2	4	0.1521739130440935	1.3771651463851334e-12	0.1521739130425156
+"LinearSVR(C=0.5, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	2	4	0.1521739132865616	3.0399513709667773e-10	0.1521739130848637
+"QuadraticDiscriminantAnalysis(priors=None, reg_param=2.220446049250313e-16,
+                              store_covariance=False, tol=0.0001)"	2	4	0.13043478260869565	0.0	0.13043478260869565
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	2	5	0.08026086956521739	0.0	0.051680869565217384
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	2	5	0.04234782608695652	0.0	0.019637391304347825
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=1500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	2	5	0.08201449275362319	0.0	0.05200412560386473
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=1500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	2	5	0.04310144927536232	0.0	0.02027835748792271
+"DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=None, splitter='best')"	2	5	0.08695652173913043	0.0	0.08695652173913043
+"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)"	2	5	0.043478260869565216	0.0	0.043478260869565216
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+                    weights='uniform')"	2	5	0.13478260869565217	0.0	0.06521739130434784
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)	2	5	0.18899755179276845	0.15135221875693486	0.06202126473197391
+"Perceptron(alpha=0.0001, class_weight=None, early_stopping=False, eta0=1.0,
+           fit_intercept=True, max_iter=1000, n_iter_no_change=5, n_jobs=None,
+           penalty=None, random_state=0, shuffle=True, tol=0.001,
+           validation_fraction=0.1, verbose=0, warm_start=False)"	2	5	0.13043478260869565	0.0	0.13043478260869565
+"LinearSVR(C=1, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	2	5	0.15217391305175365	9.360082298517797e-12	0.15217391304654487
+"LinearSVR(C=0.5, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	2	5	0.15217391304507652	1.5024455059960129e-12	0.1521739130441062
+"QuadraticDiscriminantAnalysis(priors=None, reg_param=2.220446049250313e-16,
+                              store_covariance=False, tol=0.0001)"	2	5	0.06521739130434782	0.0	0.06521739130434782
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	3	1	0.013695652173913046	0.0	0.0028856521739130427
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	3	1	0.015608695652173914	0.0	0.0019268695652173914
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=1500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	3	1	0.015420289855072466	0.0	0.003134512077294686
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=1500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	3	1	0.016376811594202897	0.0	0.0021443091787439607
+"DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=None, splitter='best')"	3	1	0.0	0.0	0.0
+"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)"	3	1	0.0	0.0	0.0
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+                    weights='uniform')"	3	1	0.11739130434782612	0.0	0.06695652173913046
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)	3	1	0.18267973748190475	0.13177716722209673	0.06209722957984954
+"Perceptron(alpha=0.0001, class_weight=None, early_stopping=False, eta0=1.0,
+           fit_intercept=True, max_iter=1000, n_iter_no_change=5, n_jobs=None,
+           penalty=None, random_state=0, shuffle=True, tol=0.001,
+           validation_fraction=0.1, verbose=0, warm_start=False)"	3	1	0.06521739130434782	0.0	0.06521739130434782
+"LinearSVR(C=1, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	3	1	0.15217391304384362	6.626879347185472e-13	0.15217391304314704
+"LinearSVR(C=0.5, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	3	1	0.15217391304477837	1.7898563368586835e-12	0.15217391304375322
+"QuadraticDiscriminantAnalysis(priors=None, reg_param=2.220446049250313e-16,
+                              store_covariance=False, tol=0.0001)"	3	1	0.043478260869565216	0.0	0.043478260869565216
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	3	2	0.042434782608695654	0.0	0.009534608695652173
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	3	2	0.03173913043478261	0.0	0.011362956521739132
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=1500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	3	2	0.04198550724637682	0.0	0.010073942028985509
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=1500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	3	2	0.030579710144927538	0.0	0.01075008695652174
+"DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=None, splitter='best')"	3	2	0.0	0.0	0.0
+"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)"	3	2	0.012120995423340964	0.0	0.00303218951357943
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+                    weights='uniform')"	3	2	0.10869565217391304	0.0	0.06521739130434785
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)	3	2	0.2096231662318844	0.1429011949280417	0.08610515087391576
+"Perceptron(alpha=0.0001, class_weight=None, early_stopping=False, eta0=1.0,
+           fit_intercept=True, max_iter=1000, n_iter_no_change=5, n_jobs=None,
+           penalty=None, random_state=0, shuffle=True, tol=0.001,
+           validation_fraction=0.1, verbose=0, warm_start=False)"	3	2	0.1956521739130435	0.0	0.1956521739130435
+"LinearSVR(C=1, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	3	2	0.1521739130437326	4.2347469206200053e-13	0.15217391304331726
+"LinearSVR(C=0.5, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	3	2	0.15217391304927197	5.5169107653044725e-12	0.15217391304643177
+"QuadraticDiscriminantAnalysis(priors=None, reg_param=2.220446049250313e-16,
+                              store_covariance=False, tol=0.0001)"	3	2	0.17391304347826086	0.0	0.17391304347826086
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	3	3	0.10443478260869564	0.0050000000000000044	0.05672104347826088
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	3	3	0.07565217391304346	0.0	0.033377391304347824
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=1500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	3	3	0.10452173913043478	0.0020000000000000018	0.057138666666666664
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=1500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	3	3	0.0736231884057971	0.0	0.03119006763285024
+"DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=None, splitter='best')"	3	3	0.08695652173913043	0.0	0.08695652173913043
+"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)"	3	3	0.06007905138339921	0.0	0.04665468918433345
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+                    weights='uniform')"	3	3	0.11304347826086959	0.0	0.06086956521739132
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)	3	3	0.24009229539219235	0.21463879020850068	0.0868828864217195
+"Perceptron(alpha=0.0001, class_weight=None, early_stopping=False, eta0=1.0,
+           fit_intercept=True, max_iter=1000, n_iter_no_change=5, n_jobs=None,
+           penalty=None, random_state=0, shuffle=True, tol=0.001,
+           validation_fraction=0.1, verbose=0, warm_start=False)"	3	3	0.2826086956521739	0.0	0.2826086956521739
+"LinearSVR(C=1, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	3	3	0.152173913044021	7.099310685817024e-13	0.15217391304323796
+"LinearSVR(C=0.5, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	3	3	0.15217391304409061	1.0063332327468167e-12	0.15217391304311229
+"QuadraticDiscriminantAnalysis(priors=None, reg_param=2.220446049250313e-16,
+                              store_covariance=False, tol=0.0001)"	3	3	0.10869565217391304	0.0	0.10869565217391304
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	3	4	0.06469565217391304	0.0	0.02160434782608696
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	3	4	0.020869565217391306	0.0	0.004332869565217392
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=1500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	3	4	0.06465217391304348	0.0003333333333333333	0.020827004830917876
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=1500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	3	4	0.020521739130434785	0.0	0.00462705314009662
+"DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=None, splitter='best')"	3	4	0.043478260869565216	0.0	0.043478260869565216
+"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)"	3	4	0.009316770186335404	0.0	0.001996450754214729
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+                    weights='uniform')"	3	4	0.11739130434782609	0.0	0.0808695652173913
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)	3	4	0.20797003704019157	0.1615480960121583	0.07495511620781711
+"Perceptron(alpha=0.0001, class_weight=None, early_stopping=False, eta0=1.0,
+           fit_intercept=True, max_iter=1000, n_iter_no_change=5, n_jobs=None,
+           penalty=None, random_state=0, shuffle=True, tol=0.001,
+           validation_fraction=0.1, verbose=0, warm_start=False)"	3	4	0.10869565217391304	0.0	0.10869565217391304
+"LinearSVR(C=1, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	3	4	0.15217391304446945	1.0387602152667342e-12	0.15217391304366745
+"LinearSVR(C=0.5, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	3	4	0.15217391304412314	8.64866702595365e-13	0.15217391304351907
+"QuadraticDiscriminantAnalysis(priors=None, reg_param=2.220446049250313e-16,
+                              store_covariance=False, tol=0.0001)"	3	4	0.13043478260869565	0.0	0.13043478260869565
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	3	5	0.07191304347826087	0.0	0.03869582608695652
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	3	5	0.03608695652173913	0.0	0.020056521739130428
+"RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mse',
+                      max_depth=None, max_features='auto', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.0,
+                      min_impurity_split=None, min_samples_leaf=1,
+                      min_samples_split=2, min_weight_fraction_leaf=0.0,
+                      n_estimators=1500, n_jobs=1, oob_score=False,
+                      random_state=None, verbose=0, warm_start=False)"	3	5	0.06872463768115941	0.0	0.03595157487922706
+"ExtraTreesRegressor(bootstrap=False, ccp_alpha=0.0, criterion='mse',
+                    max_depth=None, max_features='auto', max_leaf_nodes=None,
+                    max_samples=None, min_impurity_decrease=0.0,
+                    min_impurity_split=None, min_samples_leaf=1,
+                    min_samples_split=2, min_weight_fraction_leaf=0.0,
+                    n_estimators=1500, n_jobs=1, oob_score=False,
+                    random_state=None, verbose=0, warm_start=False)"	3	5	0.035362318840579714	0.0	0.020097429951690823
+"DecisionTreeRegressor(ccp_alpha=0.0, criterion='mse', max_depth=None,
+                      max_features=None, max_leaf_nodes=None,
+                      min_impurity_decrease=0.0, min_impurity_split=None,
+                      min_samples_leaf=1, min_samples_split=2,
+                      min_weight_fraction_leaf=0.0, presort='deprecated',
+                      random_state=None, splitter='best')"	3	5	0.08695652173913043	0.0	0.08695652173913043
+"AdaBoostRegressor(base_estimator=None, learning_rate=1.0, loss='linear',
+                  n_estimators=50, random_state=None)"	3	5	0.041407867494824016	0.0	0.03943606428078478
+"KNeighborsRegressor(algorithm='auto', leaf_size=30, metric='minkowski',
+                    metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+                    weights='uniform')"	3	5	0.08695652173913042	0.0	0.04173913043478262
+LinearRegression(copy_X=True, fit_intercept=True, n_jobs=1, normalize=False)	3	5	0.20562770264339364	0.1593697482090537	0.06837996990200698
+"Perceptron(alpha=0.0001, class_weight=None, early_stopping=False, eta0=1.0,
+           fit_intercept=True, max_iter=1000, n_iter_no_change=5, n_jobs=None,
+           penalty=None, random_state=0, shuffle=True, tol=0.001,
+           validation_fraction=0.1, verbose=0, warm_start=False)"	3	5	0.13043478260869565	0.0	0.13043478260869565
+"LinearSVR(C=1, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	3	5	0.15217391308628891	1.0927178874503629e-10	0.15217391297566923
+"LinearSVR(C=0.5, dual=True, epsilon=0.0, fit_intercept=True,
+          intercept_scaling=1.0, loss='epsilon_insensitive', max_iter=1000,
+          random_state=None, tol=0.01, verbose=0)"	3	5	0.1521739130474174	4.3812357812366724e-12	0.15217391304205624
+"QuadraticDiscriminantAnalysis(priors=None, reg_param=2.220446049250313e-16,
+                              store_covariance=False, tol=0.0001)"	3	5	0.08695652173913043	0.0	0.08695652173913043
